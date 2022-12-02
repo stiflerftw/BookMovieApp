@@ -1,0 +1,19 @@
+.heading-upcomingMovies {
+    height: 20px;
+    padding: 8px;
+    background: #ff9999;
+    text-align: center;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.movieBlock{
+  width: 76%;
+  margin: 16px;
+}
+.filterBlock{
+  width: 24%;
+  margin: 16px;
+}
