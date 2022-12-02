@@ -1,0 +1,28 @@
+.header {
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+    background: #222;
+}
+@keyframes spin3D {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+.logo {
+    background-color: #ff7f7f;
+    height: 36px;
+    float: left;
+    animation-name: spin3D;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.button {
+    float: right;
+}
+
